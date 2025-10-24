@@ -79,5 +79,5 @@ curl -X PATCH http://localhost:8000/api/books/200001/return_book/ \
 ## Run tests
 ```bash
 docker exec -it <container_name_id python> bash 
-nox -s test
+nox -s check_tests
 ```
