@@ -50,10 +50,10 @@ library_warehouse/
 ├── requirements.txt
 └── README.md
 
-
+```
 ## Install build project
 ```bash
-docker compose up --build
+  docker compose up --build
 ```
 
 ## Create book
