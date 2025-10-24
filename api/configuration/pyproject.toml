@@ -1,0 +1,38 @@
+[tool.isort]
+line_length = 120
+profile = "black"
+skip = ["migrations", ".nox", "venv"]
+
+[tool.black]
+line-length = 120
+exclude = """
+/(
+    .nox
+  | migrations 
+  | venv
+
+)/
+"""
+
+[tool.pylint.master]
+output-format = "colorized"
+ignore = [
+  "migrations",
+  "manage.py",
+  ".nox"
+]
+
+[tool.pylint.messages_control]
+min-public-methods=1
+max-parents=12
+disable = [
+  "line-too-long",
+  "missing-function-docstring",
+  "missing-module-docstring",
+  "missing-class-docstring",
+  "logging-fstring-interpolation",
+  "raise-missing-from",
+  "inconsistent-return-statements",
+  "wrong-import-order",
+  "redefined-outer-name"
+]
