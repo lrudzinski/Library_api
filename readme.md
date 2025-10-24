@@ -1,11 +1,11 @@
-# 📚 Library Warehouse API
+# Library Warehouse API
 
 The **Library Warehouse API** is a simple backend for managing books and borrowers.  
 It allows creating, editing, deleting, borrowing, and returning books.  
 The project is containerized using **Docker** and uses **PostgreSQL** as its database.  
 
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 - **Python 3.12**  
 - **Django 5.x**  
@@ -38,7 +38,7 @@ The project is containerized using **Docker** and uses **PostgreSQL** as its dat
 
 
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 library_warehouse/

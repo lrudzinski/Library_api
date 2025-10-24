@@ -1,1 +1,0 @@
-{"serial_number":"200002","title":"Clean Code","author":"Robert C. Martin","is_borrowed":true,"borrowed_by":{"card_number":"100001","name":"Jan Kowalski"},"borrowed_at":"2025-10-22 19:41:57.468545+00:00"}
